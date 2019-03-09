@@ -36,12 +36,12 @@ module.exports = (env, argv) => {
             ]
         },
         output: {
-            filename: 'bundle.js',
+            filename: 'js/bundle.js',
             path: path.resolve(__dirname, 'public/assets')
         },
         plugins: [
             new MiniCssExtractPlugin({
-                filename: "bundle.css"
+                filename: "css/bundle.css"
             })
         ],
         optimization: {} // required for below
