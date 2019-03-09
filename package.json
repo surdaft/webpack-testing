@@ -1,0 +1,31 @@
+{
+  "name": "modeng-admin",
+  "version": "1.0.0",
+  "description": "Modern English Admin System",
+  "author": "Jack Stupple <jack.stupple@modernenglish.co.uk>, Modern English Dev <dev@modernenglish.co.uk>",
+  "license": "propriatary",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
